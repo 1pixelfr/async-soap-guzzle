@@ -11,7 +11,7 @@
     ],
     "repositories": [
         {
-            "type": "git",
+            "type": "vcs",
             "url":  "https://github.com/1pixelfr/soap-http-binding"
         }
     ],
@@ -24,6 +24,8 @@
     "require-dev": {
         "phpunit/phpunit": "~4.8"
     },
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "autoload": {
         "psr-4": {"Meng\\AsyncSoap\\Guzzle\\": "src/"}
     }
